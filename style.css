@@ -1,0 +1,267 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(120deg, rgb(25, 44, 86), rgba(47,54,64,0.2)), url('F:/VSProgram/tejphoto.jpg');
+    background-size: cover;
+}
+
+nav{
+    width: 25%;
+    height: 100hv;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+}
+
+.logo{
+    font-size: 3em;
+    letter-spacing: 5px;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+}
+.logo b{
+    text-shadow: 1.5px 1.5px 1.5px white;
+}
+.logo span{
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px 20px;
+    margin: 17px auto;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.4s ease;
+}
+
+.menu{
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+.menu a:first-child{
+    background-color: #192a56;
+}
+.menu a:hover{
+    background-color: #192a56;
+}
+.menu i{
+    margin: 0px 20px;
+}
+
+.sicon{
+    position: absolute;
+    margin: 0px 0px;
+    bottom: 0px;
+}
+.sicon i{
+    color: white;
+    font-size: 20px;
+    margin: 0px 15px;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 2px 1px 3px grey;
+    transition: 0.5s ease;
+}
+.sicon i:hover{
+    transform: translateY(-20px);
+}
+
+.htxt{
+    max-width: 650px;
+    position:absolute;
+    top: 30%;
+    left: 50%;
+    letter-spacing: 1.5px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #f8f4f8;
+}
+.htxt h4{
+    text-align: left;
+    font-size: 2em;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
+.htxt h1{
+    font-size: 3em;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
+.htxt h5{
+    text-align: left;
+    font-size: 2em;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
+
+.about{
+    height: 100vh;
+    width: 100%;
+    background:linear-gradient(100deg, rgba(25,42,86,1), rgba(36, 71, 119, 0.2), rgb(16, 32, 104));
+    background-size: cover; 
+}
+.about img{
+    margin-top: 40px;
+    margin-left: 100px;
+    box-shadow: 9px 9px 9px rgb(0, 0, 0);
+}
+.about h1{
+    text-align: center;
+}
+.about p{
+    position:absolute;
+    top: 153%;
+    left: 65%;
+    right: 2%;
+    letter-spacing: 1.5px;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: #000000;
+}
+
+.skill{
+    height: 100vh;
+    width: 100%;
+    background:linear-gradient(100deg, rgba(25,42,86,1), rgba(36, 71, 119, 0.2), rgb(16, 32, 104));
+    background-size: cover; 
+}
+.skill h1{
+    text-align: center;
+}
+.skill img{
+    box-shadow: 4px 4px 4px rgb(0, 0, 0);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.skill img:hover{
+    background: transparent;
+    border: 3px solid rgb(240, 16, 16);
+}
+
+.project{
+    height: 85vh;
+    width: 100%;
+    background:linear-gradient(100deg, rgba(25,42,86,1), rgba(36, 71, 119, 0.2), rgb(16, 32, 104));
+    background-size: cover; 
+}
+.project h1{
+    text-align: center;
+}
+.project img{
+    box-shadow: 4px 4px 4px rgb(0, 0, 0);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.project img:hover{
+    background: transparent;
+    border: 2.5px solid rgb(255, 0, 0);
+}
+.project a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    font-size: 20px;
+    
+    position: relative;
+}
+.project a:before{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    transition: 0.4s linear;
+}
+.project a:hover:before{
+    width: 100%;
+}
+.project a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    font-size: 18px;
+    background: rgb(248, 143, 82);
+    border-radius: 8px;
+    transition: 0.4s;
+}
+.project a:hover{
+    background: transparent;
+    border: 2px solid rgb(248, 143, 82);
+}
+
+.contact{
+    height: 100vh;
+    width: 100%;
+    background:linear-gradient(100deg, rgba(25,42,86,1), rgba(36, 71, 119, 0.2), rgb(16, 32, 104));
+    background-size: cover; 
+}
+.contact h1{
+    text-align: center;
+}
+.contact i{
+    color: white;
+    font-size: 22px;
+    
+    margin: 0px 15px; 
+    padding: 10px;
+    border-radius: 80%;
+    border:#000000;
+    cursor:pointer;
+    box-shadow: 2px 1px 3px black;
+    transition: all .45s ease;
+}
+.contact i:hover{
+    transform:translateX(10px);
+}
+.contact form{
+    position: relative;
+    margin-left: 50%;
+    margin-right: 40px;
+    margin-top: 15px;
+    width: 70%;
+}
+.contact form input, form textarea{
+    width: 50%;
+    padding: 14px;
+    background: var(--bg-color);
+    color: var(--text-color);
+    border: solid;
+    outline:rgb(0, 0, 0);
+    font-size: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.contact form textarea{
+    resize:none;
+    height:240px;
+}
+.contact form .submit{
+    display: inline-block;
+    font-size: 16px;
+    background: var(--main-color);
+    color: var(--text-color);
+    width: 160px;
+    transition: all .45s ease;
+}
+.contact form .submit:hover{
+transform: scale(1.1);
+cursor: pointer;
+}
+.contact p{
+    position:absolute;
+    top: 450%;
+    left: 20%;   
+    transform: translate(-50%, -50%);
+}
